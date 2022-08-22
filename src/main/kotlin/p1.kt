@@ -4,7 +4,7 @@ fun main()
     var b: Float=1.2f
     var c: Char='V'
     val String="Vansh"
-    val Boolean="True"
+    val Boolean="Truze"
     val Double="19.6"
     val Long="4575859599858"
     val short="-2"
