@@ -1,5 +1,10 @@
 fun main() {
-    var arrlist = listOf(1, 25, 68, 52, 21)
+    var arrlist = ArrayList<Int>()
+    for(i in 0..5)
+    {
+        print("arr[$i]: ")
+        arrlist.add(readLine()!!.toInt())
+    }
     var maxNum:Int
     maxNum=arrlist[0]
     for (i in arrlist) {
